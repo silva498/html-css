@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <link rel="shortcut icon" href="panda.png" type="image/x-icon">
+    <style>
+       @font-face {
+        font-family: 'Fright';
+        src: url('fontes/Frightmare.otf') format('opentype'), url('fontes/Frightmare.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        /*
+        tipos de format()
+        opentype(otf)
+        truetype(ttf)
+        enedded-opentype
+        truetype-aat(apple advenced typography)
+        svg
+        */
+       }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            font-family: 'Fright', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá Mundo!</h1>
+    <h1>Frightmare</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fuga illo eaque voluptatem sequi mollitia optio. Harum deleniti modi est autem non repellat, eaque ex quos, commodi sint nihil rem?</p>
+
+    
+</body>
+</html>
