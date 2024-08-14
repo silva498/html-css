@@ -1,5 +1,69 @@
 @charset "UTF-8";
 
-body {
-    background-color: rgb(207, 127, 7);
+* {
+    margin: 0px;   /*isto faz que fique mais grudado*/
+    padding: 0px;
 }
+
+html, body {
+    min-height: 100vh;              /*tamanho minimo do corpo do site*/
+    background-color: darkgrey;  /*cor de fundo*/
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+header > h1 {
+    padding: 50px;                  /*espaço em cima*/
+  /*  text-transform: uppercase;      /*por letra maiuscula*/
+  font-variant: small-caps;           /*por letra maiuscula*//*primeira letras maiores*/
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;        /*negrito*/
+}
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.nomal {
+    background-color: white;
+    color: black;
+
+}
+
+section.imagem {
+    background-color: rgb(50, 37, 37);
+    color: white;
+    
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(17, 13, 13, 0.475);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
