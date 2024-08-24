@@ -60,6 +60,10 @@ section {
     font-size: 3.5vw;
 }
 
+section > p {
+    padding-bottom: 2em;    /*espaçamento entre sepitilhas*/
+}
+
 section.nomal {
     background-color: white;
     color: black;
@@ -69,6 +73,9 @@ section.nomal {
 section.imagem {
     background-color: rgb(50, 37, 37);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.661);/* sombra interna*/
+    background-size: cover;
+    background-attachment: fixed;    /*fixa imagem*/
     
 }
 
@@ -76,6 +83,18 @@ section.imagem > p {
     display: inline-block;                /*caixa que adapta ao conteudo*/
     padding: 5px;                         /*para não ficar colado */
     background-color: rgba(17, 13, 13, 0.475);
+    text-shadow: 1px 1px opx black;
+}
+
+section#img01{
+  background-image: url("../imagens/background001.jpg");
+  background-position: right center;
+
+}
+
+section#img02{
+     background-image: url("../imagens/background002.jpg");
+     
 }
 
 footer {
