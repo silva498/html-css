@@ -11,6 +11,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         td, th {
             border: 1px solid black;
@@ -26,6 +27,12 @@
         thead, tfoot{
             background-color: lightgray;
             color: white;
+        }
+        thead > tr > th {
+            position: static;
+            top: 0;
+            background-color: lightgray;
+            
         }
 
         tbody > tr:nth-child(2n) {           /*2n de duas em duas linha */  /*ou odd ou even*/
